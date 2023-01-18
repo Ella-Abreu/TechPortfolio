@@ -14,52 +14,68 @@
     <!--icons-->
     <script src="https://kit.fontawesome.com/30187da048.js" crossorigin="anonymous"></script>
 
+    <!--buttons-->
+    
+
     <!--CSS Stylesheet-->
     <link rel="stylesheet" href="style.css">
     </head>
 
+    
 <body>
+    <!--Nav bar start-->
     <header>
         <nav>
-            <ul>
-                
-                <li>About Me</li>
-                <li>Portfolio</li>
-                <li id="logo">Ella de Abreu</li>
-                
-                <li>Contact</li>
-                <li><i class="fa-brands fa-square-github"></i> <i class="fa-brands fa-linkedin"></i></li>
-                <li id="burger-menu"><i class="fa-solid fa-bars"></i> </li>
-            </ul>
-        </nav>
-            </ul>
+            <ul class="nav-bar">
+                <li id="home"><i  class="fa-solid fa-house"></i></li>
+                <div class="social-icons">
+                    <li class="social-icon"><i class="fa-brands fa-square-github"></i></li>
+                    <li class="social-icon"><i class="fa-brands fa-linkedin"></i></li>
+            </div>
+            </ul> 
         </nav>
     </header>
+    <!--Nav bar end-->
 
     <main>
-         <!--hero start-->
-        
-         <div class="hero-container">
-             <picture>
-                <source srcset="./img\Hero-Mobile.png" media="(max-width: 725px)">
-                <source srcset="./img/Hero-Desktop.png">
-                <img id="hero-img" src="./img/Hero-Desktop.png" alt="A picture of Ella on a dark background">
-                </picture>
-            <div class="hero-text">
-                <h1>Derbyshire based Front-End Developer and passionate STEM Educator</h1>
-                <div class="button-and-icons">
-                    <button id="quick-contact">Contact</button> 
+        <!--Hero start-->
+        <section class="hero">
+            <h1>Ella de Abreu</h1>
+            <div class="hero-container">
+                <div class="hero-items">
+                    <p>Front-End Developer</p>
+                    <p>STEM Educator</p>
+                    <button id="hero-button">Contact</button> 
                 </div>
             </div>
-            
+        </section>
+        <!--Hero end-->
+
+        <!--About me start-->
+       
+       <section class="about-me-section">
+        <div class="about-me-text">
+            <h2 class="section-title"> About me</h2>
         </div>
-        <!--hero end-->
+        <div class="about-me-image">
+
+        </div>
+    </section>
+        
+
+
+        <!--About me end-->
+        
 
         <!--portfolio start-->
-        
+        <h2 class="section-title"> Portfolio</h2>
+
+
+
+
         <!--portfolio end-->
 
-        
+   
 
 
     </main>
